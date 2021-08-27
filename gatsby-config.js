@@ -5,7 +5,7 @@ module.exports = {
     title: 'Faizan Ullah',
     description:
       "I'm a MERN developer specializing in designing (and occasionally building) web services.",
-    siteUrl: 'https://faizanullahsindhu.web.app', // No trailing slash allowed!
+    siteUrl: 'https://faizydev.web.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@designbyfaizi',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'BrittanyChiang',
-        short_name: 'BrittanyChiang',
+        name: 'Faizan Ullah',
+        short_name: 'Faizan Ullah',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
