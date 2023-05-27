@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Faizan Ullah',
     description:
-      "I'm a MERN developer specializing in designing (and occasionally building) web services.",
+      `I'm a MERN developer specializing in designing (and occasionally building) web services.`,
     siteUrl: 'https://faizydev.web.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@designbyfaizi',

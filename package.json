@@ -50,6 +50,7 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
+    "graphql": "^14.7.0",
     "lodash": "^4.17.19",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",

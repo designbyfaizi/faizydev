@@ -29,7 +29,7 @@ const StyledHeroSection = styled.section`
     }
   }
 
-  h2{
+  h2 {
     color: var(--green);
   }
 
@@ -68,12 +68,14 @@ const Hero = () => {
   const three = <h3 className="big-heading">I design stuff for the web.</h3>;
   const four = (
     <p>
-      I'm a MERN developer specializing in designing (and occasionally building) 
-      web services. Currently, I'm still a student in my final semester in COMSATS University Islamabad and these days I am focused on learning{' '}
+      I'm a full stack developer specializing in designing and building web services in{' '}
       <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-        VueJs
+        VUE
       </a>
-      .
+      {' '}and{' '}
+      <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+        REACT
+      </a>
     </p>
   );
   const five = (
@@ -86,14 +88,12 @@ const Hero = () => {
 
   return (
     <StyledHeroSection>
-      
       {prefersReducedMotion ? (
         <div className="main-section">
           {items.map((item, i) => (
             <div key={i}>{item}</div>
           ))}
         </div>
-        
       ) : (
         <TransitionGroup component={null} className="main-section">
           {isMounted &&
@@ -104,7 +104,6 @@ const Hero = () => {
             ))}
         </TransitionGroup>
       )}
-      
     </StyledHeroSection>
   );
 };

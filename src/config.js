@@ -4,7 +4,7 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/faizanullah1999',
+      url: 'https://github.com/designbyfaizi',
     },
     {
       name: 'Instagram',
@@ -25,10 +25,10 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    // {
-    //   name: 'Experience',
-    //   url: '/#jobs',
-    // },
+    {
+      name: 'Experience',
+      url: '/#jobs',
+    },
     {
       name: 'Work',
       url: '/#projects',
@@ -40,7 +40,7 @@ module.exports = {
   ],
 
   colors: {
-    red: '#de445f',
+    red: '#de095c',
     // green: '#64ffda',
     // navy: '#0a192f',
     dark: '#000000',
